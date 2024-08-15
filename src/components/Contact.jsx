@@ -65,9 +65,14 @@ const Contact = () => {
     <>
       <div className="p-4 lg:w-3/4" id="contact">
         <Toaster />
-        <h2 className="my-8 text-center text-4xl font-semibold tracking-tighter">
+        <motion.h2
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="my-8 text-center text-4xl font-semibold tracking-tighter"
+        >
           Let's Connect
-        </h2>
+        </motion.h2>
         <motion.form
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
