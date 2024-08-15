@@ -58,7 +58,7 @@ export const PROJECTS = [
 export const SKILLS = [
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
-    name: "React",
+    name: "React.js",
     experience: "1+ year",
   },
   {

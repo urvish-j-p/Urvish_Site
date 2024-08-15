@@ -8,7 +8,7 @@ const Hero = () => {
       <section className="flex min-h-screen flex-wrap items-center" id="intro">
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
+          whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
           className="w-full md:w-1/2 flex flex-col items-center md:items-start"
         >
@@ -21,12 +21,16 @@ const Hero = () => {
           <h2 className="mb-4 p-2 text-4xl font-bold md:text-5xl lg:text-[7rem] text-center md:text-left">
             {HERO.name}
           </h2>
-          <p className="mb-8 p-2 text-xl">{HERO.description}</p>
+          <div className="w-full flex justify-center">
+            <p className="mb-8 p-2 text-xl text-center md:text-left">
+              {HERO.description}
+            </p>
+          </div>
         </motion.div>
 
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
+          whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
           className="w-full md:w-1/2 lg:p-8"
         >
