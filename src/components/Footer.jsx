@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="mb-8 mt-20">
         <div className="flex items-center justify-center">
           <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.5 }}
+            initial={{ opacity: 0, y: -20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
             className="my-10"
           >
             Urvish Prajapati

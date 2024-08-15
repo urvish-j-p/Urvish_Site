@@ -63,7 +63,7 @@ const Contact = () => {
   };
   return (
     <>
-      <div className="p-4 lg:w-3/4" id="contact">
+      <div className="p-4 lg:w-3/4" id="contact" style={{ marginTop: "6rem" }}>
         <Toaster />
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
