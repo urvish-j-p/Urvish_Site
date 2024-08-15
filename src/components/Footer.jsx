@@ -20,7 +20,7 @@ const Footer = () => {
             <motion.a
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ duration: 0.2, delay: 0.3 * index }}
+              transition={{ duration: 0.2, delay: 0.2 * index }}
               key={index}
               href={link.href}
               target="_blank"
