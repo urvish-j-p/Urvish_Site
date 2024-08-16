@@ -9,7 +9,7 @@ const Hero = () => {
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.8 }}
           className="w-full md:w-1/2 flex flex-col items-center md:items-start"
         >
           <p className="p-2 text-3xl tracking-tighter lg:text-4xl text-center md:text-left">
@@ -31,14 +31,14 @@ const Hero = () => {
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.8 }}
           className="w-full md:w-1/2 lg:p-8"
         >
           <div className="flex justify-center">
             <motion.img
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 0.8 }}
               src={urvishImg}
               alt="Urvish Pic"
               width={550}

@@ -1,9 +1,15 @@
-import React from "react";
+import { useState } from "react";
 import { PROJECTS } from "../constants";
 import { MdArrowOutward } from "react-icons/md";
 import { motion } from "framer-motion";
 
 const Projects = () => {
+  const [hoveredProject, setHoveredProject] = useState(null);
+
+  const handleTouchStart = (projectId) => {
+    setHoveredProject(projectId);
+  };
+
   return (
     <>
       <section className="pt-20" id="projects">
@@ -23,6 +29,7 @@ const Projects = () => {
               transition={{ duration: 0.5 }}
               whileHover={{ scale: 1.05 }}
               key={project.id}
+              onTouchStart={() => handleTouchStart(project.id)}
               className="group relative overflow-hidden rounded-3xl"
             >
               <motion.img
@@ -34,6 +41,7 @@ const Projects = () => {
               <motion.div
                 initial={{ opacity: 0 }}
                 whileHover={{ opacity: 1 }}
+                animate={{ opacity: hoveredProject === project.id ? 1 : 0 }}
                 transition={{ duration: 0.5 }}
                 className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg translate-opacity duration-500 group-hover:opacity-100"
               >

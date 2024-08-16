@@ -146,7 +146,7 @@ const Contact = () => {
             className={`mb-8 w-full rounded border border-stone-50/30 bg-stone-200 px-4 py-2 text-sm font-semibold text-stone-900 hover:bg-stone-300 ${
               isSending ? "cursor-not-allowed opacity-50" : ""
             }`}
-            disable={isSending}
+            disabled={isSending}
           >
             <div className="flex items-center justify-center gap-2">
               {isSending ? "Sending..." : "Send"}

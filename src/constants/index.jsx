@@ -6,9 +6,9 @@ import {
   FaInstagram,
 } from "react-icons/fa6";
 
-import projectImage1 from "../assets/project1.png";
-import projectImage2 from "../assets/project2.png";
-import projectImage3 from "../assets/project3.png";
+import StackOverflow from "../assets/StackOverflow.png";
+import QuickNote from "../assets/QuickNote.png";
+import eMart from "../assets/eMart.png";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -38,19 +38,19 @@ export const PROJECTS = [
   {
     id: 1,
     name: "Stack Overflow Clone",
-    image: projectImage1,
+    image: StackOverflow,
     Link: "https://stack-overflow-clone-by-urvish.vercel.app/",
   },
   {
     id: 2,
     name: "QuickNote",
-    image: projectImage2,
+    image: QuickNote,
     Link: "https://quicknote-by-urvish.vercel.app/",
   },
   {
     id: 3,
     name: "eMart",
-    image: projectImage3,
+    image: eMart,
     Link: "https://emart-by-urvish.netlify.app/",
   },
 ];
