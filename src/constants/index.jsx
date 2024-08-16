@@ -17,6 +17,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { TbBrandTypescript } from "react-icons/tb";
 import { FaAws } from "react-icons/fa";
+import { SiAntdesign } from "react-icons/si";
 
 export const NAVIGATION_LINKS = [
   { label: "Intro", href: "#intro" },
@@ -89,7 +90,12 @@ export const SKILLS = [
   {
     icon: <FaAws className="text-4xl text-white lg:text-5xl" />,
     name: "AWS",
-    experience: "1+ year",
+    experience: "6+ months",
+  },
+  {
+    icon: <SiAntdesign className="text-4xl text-white lg:text-5xl" />,
+    name: "Ant Design",
+    experience: "6+ months",
   },
 ];
 
