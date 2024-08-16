@@ -6,9 +6,9 @@ import {
   FaInstagram,
 } from "react-icons/fa6";
 
-import StackOverflow from "../assets/StackOverflow.png";
-import QuickNote from "../assets/QuickNote.png";
-import eMart from "../assets/eMart.png";
+import projectImage1 from "../assets/project1.png";
+import projectImage2 from "../assets/project2.png";
+import projectImage3 from "../assets/project3.png";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -38,19 +38,19 @@ export const PROJECTS = [
   {
     id: 1,
     name: "Stack Overflow Clone",
-    image: StackOverflow,
+    image: projectImage1,
     Link: "https://stack-overflow-clone-by-urvish.vercel.app/",
   },
   {
     id: 2,
     name: "QuickNote",
-    image: QuickNote,
+    image: projectImage2,
     Link: "https://quicknote-by-urvish.vercel.app/",
   },
   {
     id: 3,
     name: "eMart",
-    image: eMart,
+    image: projectImage3,
     Link: "https://emart-by-urvish.netlify.app/",
   },
 ];
@@ -89,7 +89,7 @@ export const SKILLS = [
   {
     icon: <FaAws className="text-4xl text-white lg:text-5xl" />,
     name: "AWS",
-    experience: "6+ months",
+    experience: "1+ year",
   },
 ];
 
