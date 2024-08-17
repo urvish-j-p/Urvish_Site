@@ -16,7 +16,7 @@ const Experience = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.5 }}
+          transition={{ duration: 0.8}}
           className="space-y-8 p-10"
         >
           {EXPERIENCES.map((experience, index) => (
