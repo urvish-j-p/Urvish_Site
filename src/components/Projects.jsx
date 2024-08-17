@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { PROJECTS } from "../constants";
 import { MdArrowOutward } from "react-icons/md";
 import { motion } from "framer-motion";
@@ -9,6 +9,23 @@ const Projects = () => {
   const handleTouchStart = (projectId) => {
     setHoveredProject(projectId);
   };
+
+  const handleTouchOutside = (event) => {
+    // Check if the touch event target is outside the project cards
+    if (!event.target.closest(".project-card")) {
+      setHoveredProject(null);
+    }
+  };
+
+  useEffect(() => {
+    // Add event listener for touch events on the entire document
+    document.addEventListener("touchstart", handleTouchOutside);
+
+    // Cleanup event listener on unmount
+    return () => {
+      document.removeEventListener("touchstart", handleTouchOutside);
+    };
+  }, []);
 
   return (
     <>
@@ -30,7 +47,7 @@ const Projects = () => {
               whileHover={{ scale: 1.05 }}
               key={project.id}
               onTouchStart={() => handleTouchStart(project.id)}
-              className="group relative overflow-hidden rounded-3xl"
+              className="group relative overflow-hidden rounded-3xl project-card"
             >
               <motion.img
                 whileHover={{ scale: 1.1 }}
