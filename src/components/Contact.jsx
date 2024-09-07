@@ -88,7 +88,7 @@ const Contact = () => {
                 value={formData.name}
                 placeholder="Name"
                 onChange={handleChange}
-                className="mb-8 w-full appearance-none rounded-lg border border-stone-50/30 bg-transparent px-3 py-2 text-sm focus:border-stone-400 focus:outline-none"
+                className="mb-2 w-full appearance-none rounded-lg border border-stone-50/30 bg-transparent px-3 py-2 text-sm focus:border-stone-400 focus:outline-none"
               />
               {errors.name && (
                 <motion.p
@@ -108,7 +108,7 @@ const Contact = () => {
                 value={formData.email}
                 placeholder="Email"
                 onChange={handleChange}
-                className="mb-8 w-full appearance-none rounded-lg border border-stone-50/30 bg-transparent px-3 py-2 text-sm focus:border-stone-400 focus:outline-none"
+                className="mb-2 w-full appearance-none rounded-lg border border-stone-50/30 bg-transparent px-3 py-2 text-sm focus:border-stone-400 focus:outline-none"
               />
               {errors.email && (
                 <motion.p
@@ -128,7 +128,7 @@ const Contact = () => {
               value={formData.message}
               placeholder="Message"
               onChange={handleChange}
-              className="mb-8 w-full appearance-none rounded-lg border border-stone-50/30 bg-transparent px-3 py-2 text-sm focus:border-stone-400 focus:outline-none"
+              className="mb-2 w-full appearance-none rounded-lg border border-stone-50/30 bg-transparent px-3 py-2 text-sm focus:border-stone-400 focus:outline-none"
               rows="6"
             />
             {errors.message && (

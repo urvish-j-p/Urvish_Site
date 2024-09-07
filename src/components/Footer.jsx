@@ -10,7 +10,7 @@ const Footer = () => {
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="my-10"
+            className="my-8"
           >
             Urvish Prajapati
           </motion.p>
