@@ -18,6 +18,7 @@ import { SiExpress } from "react-icons/si";
 import { TbBrandTypescript } from "react-icons/tb";
 import { FaAws } from "react-icons/fa";
 import { SiAntdesign } from "react-icons/si";
+import { TbBrandRedux } from "react-icons/tb";
 
 export const NAVIGATION_LINKS = [
   { label: "Intro", href: "#intro" },
@@ -60,6 +61,11 @@ export const SKILLS = [
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React.js",
+    experience: "1+ year",
+  },
+  {
+    icon: <TbBrandRedux className="text-4xl lg:text-5xl" style={{ color: '#764abc' }} />,
+    name: "Redux",
     experience: "1+ year",
   },
   {
