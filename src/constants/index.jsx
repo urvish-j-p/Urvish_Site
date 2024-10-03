@@ -85,7 +85,7 @@ export const SKILLS = [
   {
     icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
     name: "Next.js",
-    experience: "1+ year",
+    experience: "6+ months",
   },
   {
     icon: <FaAws className="text-4xl text-white lg:text-5xl" />,
@@ -105,7 +105,7 @@ export const EXPERIENCES = [
     company: "Prepseed",
     duration: "May 2024 - Present",
     description:
-      "Developed a comprehensive dashboard for the client Keystone Universe, enhancing their data visualization capabilities. Developed REST APIs to enhance chat functionality with filters for mentions, flagged messages and unread conversations. Implemented an alert tab with full CRUD functionality for SAS, enhancing the client's ability to manage notifications efficiently.",
+      "Developed and implemented REST APIs for the chat, transport and inventory module of the client, enhancing the system's functionality and data accessibility. Designed a comprehensive dashboard for the client Keystone Universe, enhancing their data visualization capabilities. Implemented an alert module with CRUD functionality, along with invoice generation and a dynamic report card feature for the client SAS, enhancing notification management while streamlining financial operations and performance reporting.",
   },
   {
     title: "React.js Intern",
