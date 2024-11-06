@@ -33,7 +33,7 @@ export const HERO = {
   Intro: "I'm",
   greet: "Hello there!",
   description:
-    "A passionate Full Stack Developer skilled in MERN, TypeScript & Next.js, producing the quality work.",
+    "A passionate Full Stack Developer skilled in MERN, TypeScript & AWS, producing the quality work.",
 };
 
 export const PROJECTS = [
@@ -64,7 +64,12 @@ export const SKILLS = [
     experience: "1+ year",
   },
   {
-    icon: <TbBrandRedux className="text-4xl lg:text-5xl" style={{ color: '#764abc' }} />,
+    icon: (
+      <TbBrandRedux
+        className="text-4xl lg:text-5xl"
+        style={{ color: "#764abc" }}
+      />
+    ),
     name: "Redux",
     experience: "1+ year",
   },
@@ -89,13 +94,13 @@ export const SKILLS = [
     experience: "1+ year",
   },
   {
-    icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
-    name: "Next.js",
+    icon: <FaAws className="text-4xl text-white lg:text-5xl" />,
+    name: "AWS",
     experience: "6+ months",
   },
   {
-    icon: <FaAws className="text-4xl text-white lg:text-5xl" />,
-    name: "AWS",
+    icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
+    name: "Next.js",
     experience: "6+ months",
   },
   {
@@ -111,7 +116,7 @@ export const EXPERIENCES = [
     company: "Prepseed",
     duration: "May 2024 - Present",
     description:
-      "Developed and implemented REST APIs for the chat, transport and inventory module of the client, enhancing the system's functionality and data accessibility. Designed a comprehensive dashboard for the client Keystone Universe, enhancing their data visualization capabilities. Implemented an alert module with CRUD functionality, along with invoice generation and a dynamic report card feature for the client SAS, enhancing notification management while streamlining financial operations and performance reporting.",
+      "Developed and implemented REST APIs for the chat, transport and inventory modules, enhancing the system's functionality and data accessibility. Created a comprehensive dashboard for the client Keystone Universe, enhancing their data visualization capabilities. Built an alert system with CRUD operations, streamlined invoice generation and report cards, optimizing notification handling and financial reporting for the client SAS. Delivered Asset Management and Client Management modules for the client Yellow Spot, optimizing operational workflows and improving client service processes. Utilized Ant Design to develop and maintain user interfaces for web applications, ensuring a consistent and modern user experience.",
   },
   {
     title: "React.js Intern",
