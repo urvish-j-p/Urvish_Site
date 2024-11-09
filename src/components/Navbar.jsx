@@ -76,7 +76,7 @@ const Navbar = () => {
               </div>
             </div>
             {isMenuOpen && (
-              <ul className="ml-4 mt-4 flex flex-col gap-4 backdrop-blur-md">
+              <ul className="ml-4 flex flex-col gap-4 backdrop-blur-md p-4">
                 {NAVIGATION_LINKS.map((item, index) => (
                   <li key={index}>
                     <a

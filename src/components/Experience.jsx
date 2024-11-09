@@ -9,7 +9,7 @@ const Experience = () => {
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-center text-4xl font-semibold tracking-tighter"
+          className="text-center text-4xl font-semibold tracking-tighter mb-8"
         >
           Experience
         </motion.h2>
@@ -17,7 +17,7 @@ const Experience = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8}}
-          className="space-y-8 p-10"
+          className="space-y-8 p-3"
         >
           {EXPERIENCES.map((experience, index) => (
             <motion.div
