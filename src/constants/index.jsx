@@ -8,7 +8,7 @@ import {
 
 import StackOverflow from "../assets/StackOverflow.png";
 import QuickNote from "../assets/QuickNote.png";
-import eMart from "../assets/eMart.png";
+import iNAVTracker from "../assets/iNAV_Tracker.png"
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -39,22 +39,22 @@ export const HERO = {
 export const PROJECTS = [
   {
     id: 1,
+    name: "i-NAV Tracker",
+    image: iNAVTracker,
+    Link: "https://i-nav-tracker-by-urvish.vercel.app/",
+  },
+  {
+    id: 2,
     name: "Stack Overflow Clone",
     image: StackOverflow,
     Link: "https://stack-overflow-clone-by-urvish.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     name: "QuickNote",
     image: QuickNote,
     Link: "https://quicknote-by-urvish.vercel.app/",
-  },
-  {
-    id: 3,
-    name: "eMart",
-    image: eMart,
-    Link: "https://emart-by-urvish.netlify.app/",
-  },
+  }
 ];
 
 export const SKILLS = [
