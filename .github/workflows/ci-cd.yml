@@ -6,7 +6,7 @@ on:
       branch:
         description: "Branch to deploy"
         required: true
-        default: "main-2" # Default branch for deployment
+        default: "main" # Default branch for deployment
 
 jobs:
   build-and-deploy:
