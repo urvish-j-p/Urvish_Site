@@ -29,7 +29,7 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const HERO = {
-  name: "Urvish Prajapati",
+  name: "Urvisssh Prajapati",
   Intro: "I'm",
   greet: "Hello there!",
   description:
