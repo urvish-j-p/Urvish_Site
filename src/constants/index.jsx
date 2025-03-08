@@ -8,7 +8,7 @@ import {
 
 import StackOverflow from "../assets/StackOverflow.png";
 import QuickNote from "../assets/QuickNote.png";
-import iNAVTracker from "../assets/iNAV_Tracker.png"
+import iNAVTracker from "../assets/iNAV_Tracker.png";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -33,7 +33,7 @@ export const HERO = {
   Intro: "I'm",
   greet: "Hello there!",
   description:
-    "A passionate Full Stack Developer skilled in MERN, TypeScript & AWS, producing the quality work.",
+    "A passionate Full Stack Developer skilled in MERN, TypeScript, AWS & CI/CD, producing the quality work.",
 };
 
 export const PROJECTS = [
@@ -54,14 +54,14 @@ export const PROJECTS = [
     name: "QuickNote",
     image: QuickNote,
     Link: "https://quicknote-by-urvish.vercel.app/",
-  }
+  },
 ];
 
 export const SKILLS = [
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React.js",
-    experience: "1+ year",
+    experience: "2+ years",
   },
   {
     icon: (
@@ -71,22 +71,22 @@ export const SKILLS = [
       />
     ),
     name: "Redux",
-    experience: "1+ year",
+    experience: "2+ years",
   },
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
     name: "Node.js",
-    experience: "1+ year",
+    experience: "2+ years",
   },
   {
     icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
     name: "MongoDB",
-    experience: "1+ year",
+    experience: "2+ years",
   },
   {
     icon: <SiExpress className="text-4xl text-white lg:text-5xl" />,
     name: "Express.js",
-    experience: "1+ year",
+    experience: "2+ years",
   },
   {
     icon: <TbBrandTypescript className="text-4xl text-blue-600 lg:text-5xl" />,
@@ -96,17 +96,12 @@ export const SKILLS = [
   {
     icon: <FaAws className="text-4xl text-white lg:text-5xl" />,
     name: "AWS",
-    experience: "6+ months",
-  },
-  {
-    icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
-    name: "Next.js",
-    experience: "6+ months",
+    experience: "1+ year",
   },
   {
     icon: <SiAntdesign className="text-4xl text-white lg:text-5xl" />,
     name: "Ant Design",
-    experience: "6+ months",
+    experience: "1+ year",
   },
 ];
 
@@ -116,21 +111,21 @@ export const EXPERIENCES = [
     company: "Prepseed",
     duration: "May 2024 - Present",
     description:
-      "Developed and implemented REST APIs for the chat, transport and inventory modules, enhancing the system's functionality and data accessibility. Created a comprehensive dashboard for the client Keystone Universe, enhancing their data visualization capabilities. Built an alert system with CRUD operations, streamlined invoice generation and report cards, optimizing notification handling and financial reporting for the client SAS. Delivered Asset Management and Client Management modules for the client Yellow Spot, optimizing operational workflows and improving client service processes. Utilized Ant Design to develop and maintain user interfaces for web applications, ensuring a consistent and modern user experience.",
+      "Constructed a 𝗖𝗜/𝗖𝗗 pipeline from scratch that improved deployment efficiency from 15 minutes (manual) to 6 minutes (automated), achieved a 𝟲𝟬% 𝗿𝗲𝗱𝘂𝗰𝘁𝗶𝗼𝗻 in deployment time. Utilized 𝗔𝗪𝗦 services such as EC2, S3, CloudFront, Route 53, ACM, SES and IAM to deploy and manage 𝗠𝗘𝗥𝗡 stack applications seamlessly in a professional environment. Developed and implemented 𝗥𝗘𝗦𝗧 𝗔𝗣𝗜𝘀 for the multiple modules, enhanced the system’s functionality and data accessibility. Crafted user interfaces with 𝗔𝗻𝘁 𝗗𝗲𝘀𝗶𝗴𝗻, ensured a consistent and modern user experience.",
   },
   {
     title: "React.js Intern",
     company: "SoftCoding Solutions",
     duration: "Jul 2023 - Aug 2023",
     description:
-      "Developed the front-end of the Student Portal Web App, ensuring a user friendly and responsive interface. Managed global state using Redux and Redux Thunk, enhancing the application's performance and maintainability. Implemented Chart.js for visualizing student attendance data, providing clear and interactive graphical representations.",
+      "Developed the frontend of the Student Portal Web App, ensured a user friendly and responsive interface. Managed global state using 𝗥𝗲𝗱𝘂𝘅 and Redux Thunk, enhanced the application’s performance and maintainability. Implemented 𝗖𝗵𝗮𝗿𝘁.𝗷𝘀 for visualizing student attendance data, provided clear and interactive graphical representations.",
   },
   {
     title: "MERN Stack Intern",
     company: "NullClass",
     duration: "Jan 2023 - Feb 2023",
     description:
-      "Integrated chatbot into the website to provide answers to programming language related questions, enhancing user engagement. Ensured the website’s responsiveness across mobile and tablet devices, delivering an optimal user experience on all platforms. Enhanced proficiency in the MERN Stack through practical application in the project.",
+      "Integrated a 𝗰𝗵𝗮𝘁𝗯𝗼𝘁 into the website to provide answers of programming language related questions, enhanced user engagement. Ensured the website’s responsiveness across mobile and tablet devices, delivered an optimal user experience on all platforms. Enhanced proficiency in the 𝗠𝗘𝗥𝗡 Stack through practical application in the project.",
   },
 ];
 
