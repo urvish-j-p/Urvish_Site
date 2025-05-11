@@ -9,15 +9,15 @@ import {
 import StackOverflow from "../assets/StackOverflow.png";
 import QuickNote from "../assets/QuickNote.png";
 import iNAVTracker from "../assets/iNAV_Tracker.png";
+import cicd from "../assets/ci-cd.png";
 
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { TbBrandTypescript } from "react-icons/tb";
 import { FaAws } from "react-icons/fa";
-import { SiAntdesign } from "react-icons/si";
+import { FaDocker } from "react-icons/fa";
 import { TbBrandRedux } from "react-icons/tb";
 
 export const NAVIGATION_LINKS = [
@@ -99,9 +99,20 @@ export const SKILLS = [
     experience: "1+ year",
   },
   {
-    icon: <SiAntdesign className="text-4xl text-white lg:text-5xl" />,
-    name: "Ant Design",
-    experience: "1+ year",
+    icon: <FaDocker className="text-4xl text-docker lg:text-5xl" />,
+    name: "Docker",
+    experience: "6+ months",
+  },
+  {
+    icon: (
+      <img
+        src={cicd}
+        alt="CI/CD"
+        className="w-10 h-10 lg:w-12 lg:h-12 object-contain filter invert"
+      />
+    ),
+    name: "CI/CD",
+    experience: "6+ months",
   },
 ];
 
