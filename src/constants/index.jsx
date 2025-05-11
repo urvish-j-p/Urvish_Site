@@ -33,7 +33,7 @@ export const HERO = {
   Intro: "I'm",
   greet: "Hello there!",
   description:
-    "A passionate Full Stack Developer skilled in MERN, TypeScript, AWS & CI/CD, producing the quality work.",
+    "A passionate Full Stack Developer skilled in MERN, TypeScript, AWS, Docker & CI/CD, producing the quality work.",
 };
 
 export const PROJECTS = [
