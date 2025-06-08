@@ -122,7 +122,7 @@ export const EXPERIENCES = [
     company: "Prepseed",
     duration: "May 2024 - Present",
     description:
-      "Constructed a 𝗖𝗜/𝗖𝗗 pipeline from scratch that improved deployment efficiency from 15 minutes (manual) to 6 minutes (automated), achieved a 𝟲𝟬% 𝗿𝗲𝗱𝘂𝗰𝘁𝗶𝗼𝗻 in deployment time. Utilized 𝗔𝗪𝗦 services such as EC2, S3, CloudFront, Route 53, ACM, SES, SNS and IAM to deploy and manage 𝗠𝗘𝗥𝗡 stack applications seamlessly in a professional environment. Developed and implemented 𝗥𝗘𝗦𝗧 𝗔𝗣𝗜𝘀 for the multiple modules, enhanced the system’s functionality and data accessibility. Crafted user interfaces with 𝗔𝗻𝘁 𝗗𝗲𝘀𝗶𝗴𝗻, ensured a consistent and modern user experience.",
+      "𝗟𝗲𝗮𝗱𝗶𝗻𝗴 the Yellow Spot OOH project, managing the entire lifecycle from client meetings and requirement gathering to development and deployment. Constructed a 𝗖𝗜/𝗖𝗗 pipeline from scratch that improved deployment efficiency from 15 minutes (manual) to 6 minutes (automated), achieved a 𝟲𝟬% 𝗿𝗲𝗱𝘂𝗰𝘁𝗶𝗼𝗻 in deployment time. Utilized 𝗔𝗪𝗦 services such as EC2, S3, CloudFront, Route 53, ACM, SES, SNS and IAM to deploy and manage 𝗠𝗘𝗥𝗡 stack applications seamlessly in a professional environment. Developed and implemented 𝗥𝗘𝗦𝗧 𝗔𝗣𝗜𝘀 for the multiple modules, enhanced the system’s functionality and data accessibility. Crafted user interfaces with 𝗔𝗻𝘁 𝗗𝗲𝘀𝗶𝗴𝗻, ensured a consistent and modern user experience.",
   },
   {
     title: "React.js Intern",
