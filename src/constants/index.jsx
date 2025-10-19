@@ -41,19 +41,19 @@ export const PROJECTS = [
     id: 1,
     name: "i-NAV Tracker",
     image: iNAVTracker,
-    Link: "https://i-nav-tracker-by-urvish.vercel.app/",
+    Link: "https://inav-tracker.urvish.website/",
   },
   {
     id: 2,
     name: "Stack Overflow Clone",
     image: StackOverflow,
-    Link: "https://stack-overflow-clone-by-urvish.vercel.app/",
+    Link: "https://stackoverflow.urvish.website/",
   },
   {
     id: 3,
     name: "QuickNote",
     image: QuickNote,
-    Link: "https://quicknote-by-urvish.vercel.app/",
+    Link: "https://quicknote.urvish.website/",
   },
 ];
 
