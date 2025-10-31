@@ -19,6 +19,7 @@ import { TbBrandTypescript } from "react-icons/tb";
 import { FaAws } from "react-icons/fa";
 import { FaDocker } from "react-icons/fa";
 import { TbBrandRedux } from "react-icons/tb";
+import { TbBrandNextjs } from "react-icons/tb";
 
 export const NAVIGATION_LINKS = [
   { label: "Intro", href: "#intro" },
@@ -33,7 +34,7 @@ export const HERO = {
   Intro: "I'm",
   greet: "Hello there!",
   description:
-    "A passionate Full Stack Developer skilled in MERN, TypeScript, AWS, Docker & CI/CD, producing the quality work.",
+    "A passionate Full Stack Developer skilled in MERN, TypeScript, Next.js, AWS, Docker & CI/CD, producing the quality work.",
 };
 
 export const PROJECTS = [
@@ -94,6 +95,11 @@ export const SKILLS = [
     experience: "1+ year",
   },
   {
+    icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
+    name: "Next.js",
+    experience: "1+ year",
+  },
+  {
     icon: <FaAws className="text-4xl text-white lg:text-5xl" />,
     name: "AWS",
     experience: "1+ year",
@@ -101,7 +107,7 @@ export const SKILLS = [
   {
     icon: <FaDocker className="text-4xl text-docker lg:text-5xl" />,
     name: "Docker",
-    experience: "6+ months",
+    experience: "1+ year",
   },
   {
     icon: (
@@ -112,7 +118,7 @@ export const SKILLS = [
       />
     ),
     name: "CI/CD",
-    experience: "6+ months",
+    experience: "1+ year",
   },
 ];
 
