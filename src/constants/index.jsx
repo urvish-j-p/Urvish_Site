@@ -6,9 +6,9 @@ import {
   FaInstagram,
 } from "react-icons/fa6";
 
-import StackOverflow from "../assets/StackOverflow.png";
 import QuickNote from "../assets/QuickNote.png";
 import iNAVTracker from "../assets/iNAV_Tracker.png";
+import FeedbackFusion from "../assets/FeedbackFusion.png";
 import cicd from "../assets/ci-cd.png";
 
 import { RiReactjsLine } from "react-icons/ri";
@@ -20,6 +20,8 @@ import { FaAws } from "react-icons/fa";
 import { FaDocker } from "react-icons/fa";
 import { TbBrandRedux } from "react-icons/tb";
 import { TbBrandNextjs } from "react-icons/tb";
+import { BiLogoPostgresql } from "react-icons/bi";
+
 
 export const NAVIGATION_LINKS = [
   { label: "Intro", href: "#intro" },
@@ -34,35 +36,14 @@ export const HERO = {
   Intro: "I'm",
   greet: "Hello there!",
   description:
-    "A passionate Full Stack Developer skilled in MERN, TypeScript, Next.js, AWS, Docker & CI/CD, producing the quality work.",
+    "Full Stack Developer building scalable web applications with modern technologies.",
 };
-
-export const PROJECTS = [
-  {
-    id: 1,
-    name: "i-NAV Tracker",
-    image: iNAVTracker,
-    Link: "https://inav-tracker.urvish.website/",
-  },
-  {
-    id: 2,
-    name: "Stack Overflow Clone",
-    image: StackOverflow,
-    Link: "https://stackoverflow.urvish.website/",
-  },
-  {
-    id: 3,
-    name: "QuickNote",
-    image: QuickNote,
-    Link: "https://quicknote.urvish.website/",
-  },
-];
 
 export const SKILLS = [
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React.js",
-    experience: "2+ years",
+    experience: "2.5+ years",
   },
   {
     icon: (
@@ -72,42 +53,47 @@ export const SKILLS = [
       />
     ),
     name: "Redux",
-    experience: "2+ years",
+    experience: "2.5+ years",
   },
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
     name: "Node.js",
-    experience: "2+ years",
+    experience: "2.5+ years",
   },
   {
     icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
     name: "MongoDB",
-    experience: "2+ years",
+    experience: "2.5+ years",
   },
   {
     icon: <SiExpress className="text-4xl text-white lg:text-5xl" />,
     name: "Express.js",
-    experience: "2+ years",
+    experience: "2.5+ years",
   },
   {
     icon: <TbBrandTypescript className="text-4xl text-blue-600 lg:text-5xl" />,
     name: "TypeScript",
-    experience: "1+ year",
+    experience: "2+ years",
   },
   {
     icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
     name: "Next.js",
-    experience: "1+ year",
+    experience: "2+ years",
+  },
+  {
+    icon: <BiLogoPostgresql className="text-4xl text-[#336791] lg:text-5xl" />,
+    name: "PostgreSQL",
+    experience: "2+ years",
   },
   {
     icon: <FaAws className="text-4xl text-white lg:text-5xl" />,
     name: "AWS",
-    experience: "1+ year",
+    experience: "2+ years",
   },
   {
     icon: <FaDocker className="text-4xl text-docker lg:text-5xl" />,
     name: "Docker",
-    experience: "1+ year",
+    experience: "2+ years",
   },
   {
     icon: (
@@ -118,7 +104,7 @@ export const SKILLS = [
       />
     ),
     name: "CI/CD",
-    experience: "1+ year",
+    experience: "2+ years",
   },
 ];
 
@@ -128,21 +114,42 @@ export const EXPERIENCES = [
     company: "Prepseed",
     duration: "May 2024 - Present",
     description:
-      "𝗟𝗲𝗮𝗱𝗶𝗻𝗴 the Yellow Spot OOH project, managing the entire lifecycle from client meetings and requirement gathering to development and deployment. Constructed a 𝗖𝗜/𝗖𝗗 pipeline from scratch that improved deployment efficiency from 15 minutes (manual) to 6 minutes (automated), achieved a 𝟲𝟬% 𝗿𝗲𝗱𝘂𝗰𝘁𝗶𝗼𝗻 in deployment time. Utilized 𝗔𝗪𝗦 services such as EC2, S3, CloudFront, Route 53, ACM, SES, SNS and IAM to deploy and manage 𝗠𝗘𝗥𝗡 stack applications seamlessly in a professional environment. Developed and implemented 𝗥𝗘𝗦𝗧 𝗔𝗣𝗜𝘀 for the multiple modules, enhanced the system’s functionality and data accessibility. Crafted user interfaces with 𝗔𝗻𝘁 𝗗𝗲𝘀𝗶𝗴𝗻, ensured a consistent and modern user experience.",
+      "𝗟𝗲𝗱 end-to-end development of the Yellow Spot OOH project, from client meetings and requirement gathering to development and deployment. Built and deployed scalable full-stack applications on 𝗔𝗪𝗦 infrastructure using 𝗠𝗘𝗥𝗡 and 𝗡𝗲𝘅𝘁.𝗷𝘀. Designed and optimized database systems using 𝗠𝗼𝗻𝗴𝗼𝗗𝗕 and 𝗣𝗼𝘀𝘁𝗴𝗿𝗲𝗦𝗤𝗟 for efficient and reliable data management. Developed 𝗥𝗘𝗦𝗧 𝗔𝗣𝗜𝘀 for multiple modules, enhancing system functionality and data accessibility. Designed and implemented role-based access control (𝗔𝗖𝗟) to ensure secure and controlled permission management. Integrated 𝗥𝗮𝘇𝗼𝗿𝗽𝗮𝘆 for secure payments and 𝗗𝗲𝗹𝗵𝗶𝘃𝗲𝗿𝘆 APIs for efficient order shipping and tracking.",
   },
   {
     title: "React.js Intern",
     company: "SoftCoding Solutions",
     duration: "Jul 2023 - Aug 2023",
     description:
-      "Developed the frontend of the Student Portal Web App, ensured a user friendly and responsive interface. Managed global state using 𝗥𝗲𝗱𝘂𝘅 and Redux Thunk, enhanced the application’s performance and maintainability. Implemented 𝗖𝗵𝗮𝗿𝘁.𝗷𝘀 for visualizing student attendance data, provided clear and interactive graphical representations.",
+      "Developed the frontend of the Student Portal Web App, ensuring a user friendly and responsive interface. Managed global state using 𝗥𝗲𝗱𝘂𝘅 and Redux Thunk, enhanced the application’s performance and maintainability. Utilized 𝗖𝗵𝗮𝗿𝘁.𝗷𝘀 for visualizing student attendance data, provided clear and interactive graphical representations.",
   },
   {
     title: "MERN Stack Intern",
     company: "NullClass",
     duration: "Jan 2023 - Feb 2023",
     description:
-      "Integrated a 𝗰𝗵𝗮𝘁𝗯𝗼𝘁 into the website to provide answers of programming language related questions, enhanced user engagement. Ensured the website’s responsiveness across mobile and tablet devices, delivered an optimal user experience on all platforms. Enhanced proficiency in the 𝗠𝗘𝗥𝗡 Stack through practical application in the project.",
+      "Implemented 𝗝𝗪𝗧 based authentication to secure user sessions and protect API endpoints. Ensured the website’s responsiveness across mobile and tablet devices, delivered an optimal user experience on all platforms.",
+  },
+];
+
+export const PROJECTS = [
+  {
+    id: 1,
+    name: "Feedback Fusion",
+    image: FeedbackFusion,
+    Link: "https://feedback-fusion.urvish.website/",
+  },
+  {
+    id: 2,
+    name: "i-NAV Tracker",
+    image: iNAVTracker,
+    Link: "https://inav-tracker.urvish.website/",
+  },
+  {
+    id: 3,
+    name: "QuickNote",
+    image: QuickNote,
+    Link: "https://quicknote.urvish.website/",
   },
 ];
 
