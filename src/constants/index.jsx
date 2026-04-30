@@ -110,7 +110,7 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    title: "MERN Stack Developer",
+    title: "Full Stack Developer",
     company: "Prepseed",
     duration: "May 2024 - Present",
     description:
