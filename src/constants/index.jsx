@@ -121,14 +121,14 @@ export const EXPERIENCES = [
     company: "SoftCoding Solutions",
     duration: "Jul 2023 - Aug 2023",
     description:
-      "Developed the frontend of the Student Portal Web App, ensuring a user friendly and responsive interface. Managed global state using 𝗥𝗲𝗱𝘂𝘅 and Redux Thunk, enhanced the application’s performance and maintainability. Utilized 𝗖𝗵𝗮𝗿𝘁.𝗷𝘀 for visualizing student attendance data, provided clear and interactive graphical representations.",
+      "Developed the frontend of the Student Portal Web App, ensuring a user friendly and responsive interface. Managed global state using 𝗥𝗲𝗱𝘂𝘅 and Redux Thunk, enhancing application performance and maintainability. Utilized 𝗖𝗵𝗮𝗿𝘁.𝗷𝘀 for visualizing student attendance data, providing clear and interactive insights",
   },
   {
     title: "MERN Stack Intern",
     company: "NullClass",
     duration: "Jan 2023 - Feb 2023",
     description:
-      "Implemented 𝗝𝗪𝗧 based authentication to secure user sessions and protect API endpoints. Ensured the website’s responsiveness across mobile and tablet devices, delivered an optimal user experience on all platforms.",
+      "Implemented 𝗝𝗪𝗧 based authentication to secure user sessions and protect API endpoints. Ensured the website’s responsiveness across mobile and tablet devices, delivering an optimal user experience across all platforms.",
   },
 ];
 
