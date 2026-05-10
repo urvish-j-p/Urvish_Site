@@ -114,7 +114,7 @@ export const EXPERIENCES = [
     company: "Prepseed",
     duration: "May 2024 - Present",
     description:
-      "𝗟𝗲𝗱 end-to-end development of the Yellow Spot OOH project, from client meetings and requirement gathering to development and deployment. Engineered a 𝗖𝗜/𝗖𝗗 pipeline that reduced deployment time from 15 minutes to 6 minutes, achieving a 𝟲𝟬% 𝗿𝗲𝗱𝘂𝗰𝘁𝗶𝗼𝗻. Built and deployed scalable full-stack applications on 𝗔𝗪𝗦 infrastructure using 𝗠𝗘𝗥𝗡 and 𝗡𝗲𝘅𝘁.𝗷𝘀. Designed and optimized database systems using 𝗠𝗼𝗻𝗴𝗼𝗗𝗕 and 𝗣𝗼𝘀𝘁𝗴𝗿𝗲𝗦𝗤𝗟 for efficient and reliable data management. Developed 𝗥𝗘𝗦𝗧 𝗔𝗣𝗜𝘀 for multiple modules, enhancing system functionality and data accessibility. Implemented role-based access control (𝗔𝗖𝗟) to ensure secure and controlled permission management. Integrated 𝗥𝗮𝘇𝗼𝗿𝗽𝗮𝘆 for secure payments and 𝗗𝗲𝗹𝗵𝗶𝘃𝗲𝗿𝘆 APIs for efficient order shipping and tracking.",
+      "𝗟𝗲𝗱 end-to-end development of 𝟯 𝗽𝗿𝗼𝗷𝗲𝗰𝘁𝘀, from requirement gathering and client communication to development and deployment. Engineered a 𝗖𝗜/𝗖𝗗 pipeline that reduced deployment time from 15 minutes to 6 minutes, achieving a 𝟲𝟬% 𝗿𝗲𝗱𝘂𝗰𝘁𝗶𝗼𝗻. Built and deployed scalable full-stack applications on 𝗔𝗪𝗦 infrastructure using 𝗠𝗘𝗥𝗡 and 𝗡𝗲𝘅𝘁.𝗷𝘀. Designed and optimized database systems using 𝗠𝗼𝗻𝗴𝗼𝗗𝗕 and 𝗣𝗼𝘀𝘁𝗴𝗿𝗲𝗦𝗤𝗟 for efficient and reliable data management. Developed 𝗥𝗘𝗦𝗧 𝗔𝗣𝗜𝘀 for multiple modules, enhancing system functionality and data accessibility. Implemented role-based access control (𝗔𝗖𝗟) to ensure secure and controlled permission management. Integrated 𝗥𝗮𝘇𝗼𝗿𝗽𝗮𝘆 for secure payments and 𝗗𝗲𝗹𝗵𝗶𝘃𝗲𝗿𝘆 APIs for efficient order shipping and tracking.",
   },
   {
     title: "React.js Intern",
