@@ -43,7 +43,7 @@ export const SKILLS = [
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React.js",
-    experience: "2.5+ years",
+    experience: "3.5+ years",
   },
   {
     icon: (
@@ -53,47 +53,47 @@ export const SKILLS = [
       />
     ),
     name: "Redux",
-    experience: "2.5+ years",
+    experience: "3.5+ years",
   },
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
     name: "Node.js",
-    experience: "2.5+ years",
+    experience: "3.5+ years",
   },
   {
     icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
     name: "MongoDB",
-    experience: "2.5+ years",
+    experience: "3.5+ years",
   },
   {
     icon: <SiExpress className="text-4xl text-white lg:text-5xl" />,
     name: "Express.js",
-    experience: "2.5+ years",
+    experience: "3.5+ years",
   },
   {
     icon: <TbBrandTypescript className="text-4xl text-blue-600 lg:text-5xl" />,
     name: "TypeScript",
-    experience: "2+ years",
+    experience: "3+ years",
   },
   {
     icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
     name: "Next.js",
-    experience: "2+ years",
+    experience: "3+ years",
   },
   {
     icon: <BiLogoPostgresql className="text-4xl text-[#336791] lg:text-5xl" />,
     name: "PostgreSQL",
-    experience: "2+ years",
+    experience: "3+ years",
   },
   {
     icon: <FaAws className="text-4xl text-white lg:text-5xl" />,
     name: "AWS",
-    experience: "2+ years",
+    experience: "3+ years",
   },
   {
     icon: <FaDocker className="text-4xl text-docker lg:text-5xl" />,
     name: "Docker",
-    experience: "2+ years",
+    experience: "3+ years",
   },
   {
     icon: (
@@ -112,21 +112,21 @@ export const EXPERIENCES = [
   {
     title: "Full Stack Developer",
     company: "Prepseed",
-    duration: "May 2024 - Present",
+    duration: "May 2023 - Present",
     description:
       "𝗟𝗲𝗱 end-to-end development of 𝟯 𝗽𝗿𝗼𝗷𝗲𝗰𝘁𝘀, from requirement gathering and client communication to development and deployment. Engineered a 𝗖𝗜/𝗖𝗗 pipeline that reduced deployment time from 15 minutes to 6 minutes, achieving a 𝟲𝟬% 𝗿𝗲𝗱𝘂𝗰𝘁𝗶𝗼𝗻. Built and deployed scalable full-stack applications on 𝗔𝗪𝗦 infrastructure using 𝗠𝗘𝗥𝗡 and 𝗡𝗲𝘅𝘁.𝗷𝘀. Designed and optimized database systems using 𝗠𝗼𝗻𝗴𝗼𝗗𝗕 and 𝗣𝗼𝘀𝘁𝗴𝗿𝗲𝗦𝗤𝗟 for efficient and reliable data management. Developed 𝗥𝗘𝗦𝗧 𝗔𝗣𝗜𝘀 for multiple modules, enhancing system functionality and data accessibility. Implemented role-based access control (𝗔𝗖𝗟) to ensure secure and controlled permission management. Integrated 𝗥𝗮𝘇𝗼𝗿𝗽𝗮𝘆 for secure payments and 𝗗𝗲𝗹𝗵𝗶𝘃𝗲𝗿𝘆 APIs for efficient order shipping and tracking.",
   },
   {
     title: "React.js Intern",
     company: "SoftCoding Solutions",
-    duration: "Jul 2023 - Aug 2023",
+    duration: "Jul 2022 - Aug 2022",
     description:
       "Developed the frontend of the Student Portal Web App, ensuring a user friendly and responsive interface. Managed global state using 𝗥𝗲𝗱𝘂𝘅 and Redux Thunk, enhancing application performance and maintainability. Utilized 𝗖𝗵𝗮𝗿𝘁.𝗷𝘀 for visualizing student attendance data, providing clear and interactive insights.",
   },
   {
     title: "MERN Stack Intern",
     company: "NullClass",
-    duration: "Jan 2023 - Feb 2023",
+    duration: "Jan 2022 - Feb 2022",
     description:
       "Implemented 𝗝𝗪𝗧 based authentication to secure user sessions and protect API endpoints. Ensured the website’s responsiveness across mobile and tablet devices, delivering an optimal user experience across all platforms.",
   },
