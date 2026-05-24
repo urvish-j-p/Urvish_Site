@@ -104,7 +104,7 @@ export const SKILLS = [
       />
     ),
     name: "CI/CD",
-    experience: "2+ years",
+    experience: "3+ years",
   },
 ];
 
