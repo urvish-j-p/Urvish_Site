@@ -43,7 +43,7 @@ export const SKILLS = [
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React.js",
-    experience: "3.5+ years",
+    experience: "2.5+ years",
   },
   {
     icon: (
@@ -53,47 +53,47 @@ export const SKILLS = [
       />
     ),
     name: "Redux",
-    experience: "3.5+ years",
+    experience: "2.5+ years",
   },
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
     name: "Node.js",
-    experience: "3.5+ years",
+    experience: "2.5+ years",
   },
   {
     icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
     name: "MongoDB",
-    experience: "3.5+ years",
+    experience: "2.5+ years",
   },
   {
     icon: <SiExpress className="text-4xl text-white lg:text-5xl" />,
     name: "Express.js",
-    experience: "3.5+ years",
+    experience: "2.5+ years",
   },
   {
     icon: <TbBrandTypescript className="text-4xl text-blue-600 lg:text-5xl" />,
     name: "TypeScript",
-    experience: "3+ years",
+    experience: "2.5+ years",
   },
   {
     icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
     name: "Next.js",
-    experience: "3+ years",
+    experience: "2.5+ years",
   },
   {
     icon: <BiLogoPostgresql className="text-4xl text-[#336791] lg:text-5xl" />,
     name: "PostgreSQL",
-    experience: "3+ years",
+    experience: "2.5+ years",
   },
   {
     icon: <FaAws className="text-4xl text-white lg:text-5xl" />,
     name: "AWS",
-    experience: "3+ years",
+    experience: "2+ years",
   },
   {
     icon: <FaDocker className="text-4xl text-docker lg:text-5xl" />,
     name: "Docker",
-    experience: "3+ years",
+    experience: "2+ years",
   },
   {
     icon: (
@@ -104,7 +104,7 @@ export const SKILLS = [
       />
     ),
     name: "CI/CD",
-    experience: "3+ years",
+    experience: "2+ years",
   },
 ];
 
